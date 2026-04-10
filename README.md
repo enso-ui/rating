@@ -1,17 +1,16 @@
 # Rating
 
-[![License](https://poser.pugx.org/enso-ui/rating/license)](https://packagist.org/packages/enso-ui/rating)
-[![Latest Stable Version](https://poser.pugx.org/enso-ui/rating/version)](https://packagist.org/packages/enso-ui/rating)
-
-Element Resize Detector
+Rating component for Vue.
 
 ### Features
 
-- soon
+- readonly and editable modes
+- optional clear control
+- support for partial values
 
 ### Configuration & Usage
 
-- soon
+Use the component by binding `v-model` to the current numeric rating.
 
 ### Contributions
 

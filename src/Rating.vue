@@ -34,11 +34,8 @@
 
 <script>
 import { FontAwesomeIcon as Fa } from '@fortawesome/vue-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
-import { faStar as faStarAlt } from '@fortawesome/free-regular-svg-icons';
-
-library.add(faStar, faStarAlt, faStarHalfAlt);
+import { faStarHalfStroke, faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
+import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
 
 export default {
     name: 'Rating',
@@ -84,10 +81,10 @@ export default {
     methods: {
         icon(step) {
             if (this.isHalf(step)) {
-                return faStarHalfAlt;
+                return faStarHalfStroke;
             }
 
-            return step <= this.currentValue ? faStar : faStarAlt;
+            return step <= this.currentValue ? faStarSolid : faStarRegular;
         },
         isHalf(step) {
             return step > this.currentValue && step - 1 < this.currentValue;
