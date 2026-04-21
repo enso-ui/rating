@@ -1,32 +1,32 @@
 {
-  "name": "@enso-ui/rating",
-  "version": "2.1.1",
-  "description": "Rating component",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/enso-ui/rating.git"
-  },
-  "keywords": [
-    "rating",
-    "renderless",
-    "autosize",
-    "vue"
-  ],
-  "author": "Adrian Ocneanu <aocneanu@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/enso-ui/rating/issues"
-  },
-  "homepage": "https://github.com/enso-ui/rating#readme",
-  "peerDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^7.2.0",
-    "@fortawesome/free-regular-svg-icons": "^7.2.0",
-    "@fortawesome/free-solid-svg-icons": "^7.2.0",
-    "@fortawesome/vue-fontawesome": "3.1.3",
-    "vue": "^3.5.0"
-  },
-  "devDependencies": {
-    "vue": "^3.5.0"
-  }
+    "name": "@enso-ui/rating",
+    "version": "2.1.1",
+    "description": "Star rating input for Enso UI.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/enso-ui/rating.git"
+    },
+    "keywords": [
+        "rating",
+        "renderless",
+        "autosize",
+        "vue"
+    ],
+    "author": "Adrian Ocneanu <aocneanu@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/enso-ui/rating/issues"
+    },
+    "homepage": "https://github.com/enso-ui/rating#readme",
+    "peerDependencies": {
+        "@fortawesome/fontawesome-svg-core": "^7.2.0",
+        "@fortawesome/free-regular-svg-icons": "^7.2.0",
+        "@fortawesome/free-solid-svg-icons": "^7.2.0",
+        "@fortawesome/vue-fontawesome": "3.1.3",
+        "vue": "^3.5.0"
+    },
+    "devDependencies": {
+        "vue": "^3.5.0"
+    }
 }
