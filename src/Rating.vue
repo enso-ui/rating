@@ -4,7 +4,7 @@
         @mouseleave="hover = false; hoverValue = 0">
         <div class="is-inline"
             v-if="clearControl && modelValue">
-            <span class="icon has-text-muted is-clickable"
+            <span class="icon is-clickable"
                 :class="{ 'is-small': small }"
                 @click="$emit('update:modelValue', null)">
                 <fa icon="star"
